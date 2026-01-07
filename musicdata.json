@@ -1,0 +1,113 @@
+{
+  "name": "My Awesome Cool Playlist",
+  "description": "Songs I like",
+  "public": true,
+  "tracks": [
+    {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":2,
+        "title":"Test Item 1",
+        "artist":"Test"
+    }
+    ,
+     {
+        "id":3,
+        "title":"Test Item 1",
+        "artist":"Test"
+    }
+    ,
+     {
+        "id":4,
+        "title":"Test Item 1",
+        "artist":"Test"
+    }
+    ,
+     {
+        "id":5,
+        "title":"Test Item 1",
+        "artist":"Test"
+    }
+    ,
+     {
+        "id":6,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":7,
+        "title":"Test Item 1",
+        "artist":"Test"
+    }
+    ,
+     {
+        "id":8,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    },
+     {
+        "id":1,
+        "title":"Test Item 1",
+        "artist":"Test"
+    }
+    
+]
+}
