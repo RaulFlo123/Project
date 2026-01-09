@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ffb0f8;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #faedff;
+}
+.brand{font-weight:700;font-size:1.1rem}
+.menu{display:flex;gap:0.75rem}
+main{max-width:900px;margin:1rem auto;padding:1rem;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(10,10,10,0.06)}
+
+#controls{margin-bottom:0.75rem}
+
+#search{width:100%;padding:0.5rem;border-radius:6px;border:1px solid #ddd}
+
+.track{display:flex;align-items:center;justify-content:space-between;padding:0.5rem;border-bottom:1px solid #eee}
+
+.meta{display:flex;flex-direction:column}
+
+.title{font-weight:600}
+
+.artist{font-size:0.9rem;color:#666}
+
+
+.play{background:#0b6cff;color:#fff;border:none;padding:0.45rem 0.6rem;border-radius:6px;cursor:pointer}
+
+.play:hover{opacity:0.95}
+
+#player{width:100%;margin-top:0.75rem}
