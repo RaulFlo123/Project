@@ -21,26 +21,16 @@ ul li a {
 
 ul li a:hover {
   background-color: #faedff;
+  color: black;
 }
-.brand{font-weight:700;font-size:1.1rem}
-.menu{display:flex;gap:0.75rem}
-main{max-width:900px;margin:1rem auto;padding:1rem;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(10,10,10,0.06)}
-
-#controls{margin-bottom:0.75rem}
-
-#search{width:100%;padding:0.5rem;border-radius:6px;border:1px solid #ddd}
+#search{width:100%;padding:0.5rem;border-radius:6px;border:1px solid #ddd ;margin-bottom:1rem position}
 
 .track{display:flex;align-items:center;justify-content:space-between;padding:0.5rem;border-bottom:1px solid #eee}
 
-.meta{display:flex;flex-direction:column}
+/* grid and card styles */
+.grid-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin-top:12px}
+.card{background:#fff;padding:12px;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,0.08);min-height:80px;display:flex;flex-direction:column;justify-content:flex-end;color:#111}
+.card .song-title{font-weight:700}
+.list-container{margin-top:12px}
+.view-toggle{margin:10px 0}
 
-.title{font-weight:600}
-
-.artist{font-size:0.9rem;color:#666}
-
-
-.play{background:#0b6cff;color:#fff;border:none;padding:0.45rem 0.6rem;border-radius:6px;cursor:pointer}
-
-.play:hover{opacity:0.95}
-
-#player{width:100%;margin-top:0.75rem}
