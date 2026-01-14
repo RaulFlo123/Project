@@ -5,109 +5,164 @@
   "tracks": [
     {
         "id":1,
-        "title":"Test Item 1",
-        "artist":"Test"
+        "title":"Ella baila sola",
+        "artist":"Peso Pluma",
+        "releasedate" : "2024-05-03",
+        "duration" : "2:45",
+        "artwork" : "https://upload.wikimedia.org/wikipedia/en/7/7d/Eslabon_Armado_and_Peso_Pluma_-_Ella_Baila_Sola.png?20230417191954"
+
     },
-     {
-        "id":2,
-        "title":"Test Item 1",
-        "artist":"Test"
+    {
+      "id": 2,
+      "title": "Last Night",
+      "artist": "Morgan Wallen",
+      "releasedate": "2023-03-03",
+      "duration": "2:44",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273705079df9a25a28b452c1fc9"
+    },
+    {
+      "id": 3,
+      "title": "All My Life (feat. J. Cole)",
+      "artist": "Lil Durk & J. Cole",
+      "releasedate": "2023-05-12",
+      "duration": "3:44",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b2737c173b0dc64913d4635e3594"
+    },
+    {
+      "id": 4,
+      "title": "un x100to",
+      "artist": "Grupo Frontera & Bad Bunny",
+      "releasedate": "2023-04-17",
+      "duration": "3:15",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273716c0b0ad51594ff788b5f06"
+    },
+    {
+      "id": 5,
+      "title": "Kill Bill",
+      "artist": "SZA",
+      "releasedate": "2022-12-08",
+      "duration": "2:34",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b2730c471c36970b9406233842a5"
+    },
+    {
+      "id": 6,
+      "title": "See You Again (feat. Kali Uchis)",
+      "artist": "Tyler, The Creator",
+      "releasedate": "2017-07-21",
+      "duration": "3:00",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3"
+    },
+    {
+      "id": 7,
+      "title": "La Bebe - Remix",
+      "artist": "Yng Lvcas & Peso Pluma",
+      "releasedate": "2023-03-17",
+      "duration": "3:54",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273a04be3ad7c8c67f4109111a9"
+    },
+    {
+      "id": 8,
+      "title": "Cupid - Twin Ver.",
+      "artist": "FIFTY FIFTY",
+      "releasedate": "2023-02-24",
+      "duration": "2:54",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b27337c0b3670236c067c8e8bbcb"
+    },
+    {
+      "id": 9,
+      "title": "Boy's a Liar Pt. 2",
+      "artist": "PinkPantheress & Ice Spice",
+      "releasedate": "2023-02-03",
+      "duration": "2:11",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b27342c5ba689b2e7cbc208a8fa7"
+    },
+    {
+      "id": 10,
+      "title": "MATHEMATICAL DISRESPECT",
+      "artist": "Lil Mabu",
+      "releasedate": "2023-05-05",
+      "duration": "1:28",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273a56e7dc625146a33a712bef4"
+    },
+    {
+      "id": 11,
+      "title": "Search & Rescue",
+      "artist": "Drake",
+      "releasedate": "2023-04-07",
+      "duration": "4:32",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273cace8a4b2ff924c9e12e3a96"
+    },
+    {
+      "id": 12,
+      "title": "Area Codes",
+      "artist": "Kali",
+      "releasedate": "2023-03-17",
+      "duration": "2:19",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b27333a8cd9ae03bc913e6e5af11"
+    },
+    {
+      "id": 13,
+      "title": "PRC",
+      "artist": "Peso Pluma & Natanael Cano",
+      "releasedate": "2023-01-23",
+      "duration": "3:04",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b2737be314e2f66a9f7ee732395e"
+    },
+    {
+      "id": 14,
+      "title": "Flowers",
+      "artist": "Miley Cyrus",
+      "releasedate": "2023-03-10",
+      "duration": "3:21",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b27358039b5147731b6e52202e46"
+    },
+    {
+      "id": 15,
+      "title": "You Proof",
+      "artist": "Morgan Wallen",
+      "releasedate": "2023-03-03",
+      "duration": "2:37",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273705079df9a25a28b452c1fc9"
+    },
+    {
+      "id": 16,
+      "title": "Fast Car",
+      "artist": "Luke Combs",
+      "releasedate": "2023-03-24",
+      "duration": "4:25",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273ca650d3a95022e0490434ba1"
+    },
+    {
+      "id": 17,
+      "title": "Daylight",
+      "artist": "David Kushner",
+      "releasedate": "2023-04-14",
+      "duration": "3:33",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b27395ca6a9b4083a86c149934ae"
+    },
+    {
+      "id": 18,
+      "title": "SLUT ME OUT",
+      "artist": "NLE Choppa",
+      "releasedate": "2023-04-14",
+      "duration": "2:03",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273e61ba4af2bb90a4d414da1dc"
+    },
+    {
+      "id": 19,
+      "title": "Cruel Summer",
+      "artist": "Taylor Swift",
+      "releasedate": "2019-08-23",
+      "duration": "2:58",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647"
+    },
+    {
+      "id": 20,
+      "title": "Anti-Hero",
+      "artist": "Taylor Swift",
+      "releasedate": "2022-10-21",
+      "duration": "3:21",
+      "artwork": "https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5"
     }
-    ,
-     {
-        "id":3,
-        "title":"Test Item 1",
-        "artist":"Test"
-    }
-    ,
-     {
-        "id":4,
-        "title":"Test Item 1",
-        "artist":"Test"
-    }
-    ,
-     {
-        "id":5,
-        "title":"Test Item 1",
-        "artist":"Test"
-    }
-    ,
-     {
-        "id":6,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":7,
-        "title":"Test Item 1",
-        "artist":"Test"
-    }
-    ,
-     {
-        "id":8,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":9,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":10,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":11,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":12,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":13,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":14,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":15,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":16,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":17,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":18,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":19,
-        "title":"Test Item 1",
-        "artist":"Test"
-    },
-     {
-        "id":20,
-        "title":"Test Item 1",
-        "artist":"Test"
-    }
-    
-]
+  ]
 }
