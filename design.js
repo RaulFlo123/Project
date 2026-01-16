@@ -15,20 +15,17 @@ xhttp.onreadystatechange = function() { // [__O__] - 5
         let card = document.createElement("div"); // [__P__] - 10
         card.classList.add("card"); // [__G__] - 11
 
-        let textData =
-          "<div class='song-title'>" + song.title + "</div>" +
-          "<span>" +
-          "Publisher: " + song.artist + "<br>" +
-          " Release Date: " + song.releasedate + "<br>" +
-          "Album: " + 
-          "</span>"; // [__K__] - 12
+       let textData =
+  "<div class='song-title'>" + song.title + "</div>" +
+  "<span>" +
+  "Artist: " + song.artist + "<br>" +
+  "Release Date: " + song.releasedate + "<br>" +
+  "Duration: " + song.duration +
+  "</span>" +
+  "<img src='" + song.artwork + "' alt='" + song.title + " artwork'>";
+
 
         card.innerHTML = textData; // [__L__] - 13
-
-        if (song.imgSrc) { // [__Q__] - 14
-            card.style.backgroundImage = "url('" + song.imgSrc + "')";
-        }
-
         grid.appendChild(card); 
        });
 

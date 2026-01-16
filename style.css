@@ -3,12 +3,19 @@
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
+  background-image: url(https://t4.ftcdn.net/jpg/02/96/97/23/360_F_296972320_FD0iBET07NEXqH5720LTXv5RkRJqaO1f.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:black ;
+  text-shadow: 0 0 10px pink;
+  font-weight: bolder;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #ffb0f8;
+  background-color: #ff99f6;
   display: flex;
 }
 
@@ -31,24 +38,48 @@ ul li a:hover {
   margin-bottom: 1rem;
 }
 .card {
+  color: #ff7ac8;
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
   padding: 1rem;
   margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-shadow:
+    0 4px 8px rgba(255, 122, 200, 0.25),
+    0 0 10px rgba(255, 122, 200, 0.15);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 6px 14px rgba(255, 122, 200, 0.4),
+    0 0 18px rgba(255, 122, 200, 0.7);
+}
+
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
 }
 .song-title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  color: #ff5fbe;
+  text-shadow: 0 0 6px rgba(255, 95, 190, 0.4);
 }
+
+
 .card img {
   width: 100%;
-  border-radius: 8px;
-  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba(255, 122, 200, 0.35);
 }
+
