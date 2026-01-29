@@ -28,9 +28,48 @@ xhttp.onreadystatechange = function() { // [__O__] - 5
         card.innerHTML = textData; // [__L__] - 13
         grid.appendChild(card); 
        });
+data = [];
+
+if (localStorage.getItem("playlist")) {
+  data = JSON.parse(localStorage.getItem("playlist"));
+} else {
+  data = jsonDataFromFile;
+  localStorage.setItem("playlist", JSON.stringify(data));
+}
+
+renderSongs();
 
     }
 };
-
 xhttp.open("GET", "data.json", true); 
 xhttp.send(); 
+form.addEventListener("submit", function(e){
+e.preventDefault();
+let title = titleInput.value;
+let publisher = devInput.value;
+let releaseDate = releaseateInput.value;
+let gifSrc = gifInput.value;
+let imgSrc = imgInput.value;
+let newObj = {
+"id":getNextId(),
+"title": title,
+"artist":artist,
+"releasedate": releasedate,
+"imgSrc":imgSrc,
+"gifSrc": gifSrc };
+submitData(newObj);
+form.reset();
+});
+
+
+
+search.addEventListener("input", function () {
+  let query = search.value.toLowerCase();
+
+  let filtered = data.filter(song =>
+    song.title.toLowerCase().includes(query) ||
+    song.artist.toLowerCase().includes(query)
+  );
+
+  renderFiltered(filtered);
+});
