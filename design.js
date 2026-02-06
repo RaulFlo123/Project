@@ -16,7 +16,7 @@ if (localStorage.getItem("datalist")) {
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       data = JSON.parse(this.responseText);
-      console.log("Loaded from gameData.json");
+      console.log("Loaded from data.json");
 
       localStorage.setItem("datalist", JSON.stringify(data));
       console.log("Saved starter data to localStorage");
@@ -44,6 +44,9 @@ function makeCards() {
       "<div>Release Date: " + song.releasedate + "</div>";
 
     card.innerHTML = textData;
+    if(song.artwork) {
+        card.style.backgroundImage = "url(" + song.artwork + ")";
+    }
     grid.appendChild(card);
   });
 
@@ -56,6 +59,7 @@ var form = document.querySelector("form");
 var titleInput = document.querySelector("#title-input");
 var pubInput = document.querySelector("#artist-input");
 var dateInput = document.querySelector("#releasedate-input");
+var artInput = document.querySelector("Artwork-input")
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -63,8 +67,9 @@ form.addEventListener("submit", function (e) {
   var newObj = {
     title: titleInput.value,
     artist: pubInput.value,
-    releasedate: dateInput.value
-  };
+    releasedate: dateInput.value,
+    artwork: artInput.value
+};
 
   data.push(newObj);
   localStorage.setItem("datalist", JSON.stringify(data));

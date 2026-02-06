@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -32,7 +33,10 @@
     <div id="controls">
       <input id="search" type="search" placeholder="Search title or artist" />
     </div>
-
+<form id="upload-form">
+      <input type="file" id="file-input" accept="audio/*" />
+      <button type="submit">Upload Song</button>
+    </form>
     <div id="playlist" class="grid-container"></div>
     <audio id="player" controls></audio>
   </section>
